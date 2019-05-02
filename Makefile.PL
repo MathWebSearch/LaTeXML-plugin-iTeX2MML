@@ -10,7 +10,7 @@ use warnings;
 # Use "perl Makefile.PL <options>"
 #======================================================================
 WriteMakefile(
-  NAME => 'LaTeXML::Plugin::iTex2MML',
+  NAME => 'LaTeXML::Plugin::iTeX2MML',
   AUTHOR => 'Christoph Alt <christph.alt@fau.de>',
   ABSTRACT => "A LaTeXML extension for support the iTex commands",
   VERSION => "0.1",
@@ -22,8 +22,8 @@ WriteMakefile(
       resources => {
         repository => {
           type => 'git',
-          url => 'https://github.com/MathWebSearch/LaTeXML-plugin-iTex2MML.git',
-          web => 'https://github.com/MathWebSearch/LaTeXML-plugin-iTex2MML',
+          url => 'https://github.com/MathWebSearch/LaTeXML-plugin-iTeX2MML.git',
+          web => 'https://github.com/MathWebSearch/LaTeXML-plugin-iTeX2MML',
         }}})
   : ()),
 );
