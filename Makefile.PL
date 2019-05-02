@@ -22,8 +22,8 @@ WriteMakefile(
       resources => {
         repository => {
           type => 'git',
-          url => 'https://github.com/typohnebild/LaTeXML-Plugin-iTex2MML.git',
-          web => 'https://github.com/typohnebild/LaTeXML-Plugin-iTex2MML',
+          url => 'https://github.com/MathWebSearch/LaTeXML-plugin-iTex2MML.git',
+          web => 'https://github.com/MathWebSearch/LaTeXML-plugin-iTex2MML',
         }}})
   : ()),
 );
