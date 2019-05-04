@@ -1,2 +1,2 @@
-profile = nlab
+profile = itex 
 source = ../itex.tex
