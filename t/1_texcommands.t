@@ -11,6 +11,6 @@ $cwd = $cwd . "/blib/script/latexmlc";
 symlink $latexmlc, $cwd || die "symlink doesn't work";
 # copy $latexmlc, $cwd;
 
-latexml_tests("t/itex", requires =>{nlab=>'dvipsnam.def'});
+latexml_tests("t/itex", requires =>{itex=>'dvipsnam.def'});
 
 1;
