@@ -48,8 +48,17 @@ DefMathI('\udots', undef, "\x{22F0}", role => 'ID');
 # Symbols
 DefMacro('\empty', '\emptyset');
 DefMacro('\infinity', '\infty');
+
+#Some Macros to avoid some errors in the nLab corpus.
+#I guess they are not neccesarly itex commands, but more or less typos?? in the
+#nlab pages
 # maybe this fixes the \b in a lot of \b < a formulae
 DefMacro('\b', 'b');
+DefMacro('\z', 'z');
+DefMath('\Cat', "Cat", role=> 'OPERATOR');
+DefMath('\Set', "Set", role=> 'OPERATOR');
+
+
 # fix for these symboles stolen from txfonts.sty.ltxml and stmaryrd.sty.ltxml
 # I don't know why they are not found although the packages are
 # preloaded/included
