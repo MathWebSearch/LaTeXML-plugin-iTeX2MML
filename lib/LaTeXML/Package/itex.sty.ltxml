@@ -57,6 +57,8 @@ DefMacro('\b', 'b');
 DefMacro('\z', 'z');
 DefMath('\Cat', "Cat", role=> 'OPERATOR');
 DefMath('\Set', "Set", role=> 'OPERATOR');
+DefMath('\id', "id", role => 'OPERATOR', meaning => 'identity');
+DefMacro('\Id', '\id');
 
 
 # fix for these symboles stolen from txfonts.sty.ltxml and stmaryrd.sty.ltxml
