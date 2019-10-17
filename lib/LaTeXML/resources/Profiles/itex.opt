@@ -5,7 +5,6 @@ whatsin = math
 whatsout = math
 pmml =
 cmml =
-mathtex =
 preload = LaTeX.pool
 preload = article.cls
 preload = amsmath.sty
